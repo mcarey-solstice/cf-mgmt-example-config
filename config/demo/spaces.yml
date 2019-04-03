@@ -1,0 +1,4 @@
+org: demo
+spaces:
+- dev
+enable-delete-spaces: true
