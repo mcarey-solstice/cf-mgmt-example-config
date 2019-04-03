@@ -1,0 +1,17 @@
+#your git repo uri
+git_repo_uri: https://github.com/mcarey-solstice/cf-mgmt-example-config
+git_repo_branch: master
+#your cf system domain
+system_domain: dev.cfdev.sh
+# user account with permission to create orgs/spaces
+user_id: admin
+# DEPRECATED - Use client_secret - password of user account with permission to create orgs/spaces
+password: admin
+# client secret for uaac for user_id
+client_secret:
+# password to bind to ldap - only needed if using LDAP
+ldap_password: ""
+# logging level for cf-mgmt commands in the pipeline
+log_level: INFO
+# time interval to trigger update/delete jobs on
+time-trigger: 15m
